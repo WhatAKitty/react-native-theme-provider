@@ -1,0 +1,47 @@
+{
+  "name": "react-native-theme-provider",
+  "version": "0.0.1",
+  "description": "Theme provider for react-native",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run lint && npm run test && ./node_modules/.bin/babel src --out-dir dist",
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register",
+    "lint": "./node_modules/.bin/eslint src/**/*.js"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "dist/",
+      "__mocks__/",
+      "node_modules/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhatAKitty/react-theme-provider.git"
+  },
+  "keywords": [
+    "react-native",
+    "theme"
+  ],
+  "author": "WhatAKitty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WhatAKitty/react-theme-provider/issues"
+  },
+  "homepage": "https://github.com/WhatAKitty/react-theme-provider#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.12.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^4.0.1"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": ">=0.28.0"
+  }
+}
