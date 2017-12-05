@@ -1,6 +1,12 @@
 # react-theme-provider
 Theme provider for react-native
 
+## Example
+
+![Preview](https://github.com/WhatAKitty/react-native-theme-provider-example/raw/master/toggle-theme.gif)
+
+https://github.com/WhatAKitty/react-native-theme-provider-example
+
 ## Usage
 
 If you want to use this module, you should first install a react native babel dependence:
