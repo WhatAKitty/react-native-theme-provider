@@ -1,4 +1,13 @@
 # react-theme-provider
+
+[![Build Status][travis-image]][travis-url]
+[![npm version][npm-image]][npm-url]
+
+[npm-image]: https://badge.fury.io/js/react-native-theme-provider.svg
+[npm-url]: https://npmjs.org/package/react-native-theme-provider
+[travis-image]: https://travis-ci.org/WhatAKitty/react-native-theme-provider.svg?branch=master
+[travis-url]: https://travis-ci.org/WhatAKitty/react-native-theme-provider
+
 Theme provider for react-native
 
 ## Example
