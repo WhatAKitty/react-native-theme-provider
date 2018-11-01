@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { View, AsyncStorage, Dimensions } from 'react-native';
+import { AsyncStorage, Dimensions } from 'react-native';
 
 const _themes = Symbol('themes');
 const _current = Symbol('current');

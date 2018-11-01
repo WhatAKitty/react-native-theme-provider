@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 export default () => (Comp) => {
   const Wrapped = (props, context) => {
-    return <Comp {...props} {...context} />
+    return <Comp {...props} {...context} />;
   };
   Wrapped.contextTypes = {
     theme: PropTypes.object.isRequired,
